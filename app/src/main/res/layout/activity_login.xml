@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingVertical="70dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/loginmg"
+        android:layout_marginBottom="25dp"
+        >
+
+    </TextView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Username"
+    android:layout_marginHorizontal="30dp"
+    android:textColor="@color/purple_200"
+
+    ></TextView>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        ></EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/purple_200"
+        ></TextView>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="30dp"
+        ></EditText>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/btn_bg"
+        ></Button>
+    <TextView
+        android:id="@+id/txt_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Account Yet? Create an Account"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        ></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign UP"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/btn_bg"
+        ></Button>
+
+
+
+</LinearLayout>

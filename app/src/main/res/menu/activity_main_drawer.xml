@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_allRequestFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="AllRequests" />
+        <item
+            android:id="@+id/nav_acceptedRequestsFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Accepted Requests" />
+        <item
+            android:id="@+id/nav_refusedRequestFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Refused Requests" />
+        <item
+            android:id="@+id/nav_waitedRequestFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Waited Requests" />
+        <item
+            android:id="@+id/nav_creationDemandeFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Creation Demande" />
+        <item
+            android:id="@+id/nav_allUsersFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Users" />
+
+    </group>
+</menu>

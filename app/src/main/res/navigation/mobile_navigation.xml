@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.gestionfraimobileandroid.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_allRequestFragment"
+        android:name="com.example.gestionfraimobileandroid.ui.AllRequest.AllRequestFragment"
+        android:label="fragment_all_request"
+        tools:layout="@layout/fragment_all_request" />
+    <fragment
+        android:id="@+id/nav_acceptedRequestsFragment"
+        android:name="com.example.gestionfraimobileandroid.ui.AcceptedRequests.AcceptedRequestsFragment"
+        android:label="fragment_accepted_requests"
+        tools:layout="@layout/fragment_accepted_requests" />
+    <fragment
+        android:id="@+id/nav_refusedRequestFragment"
+        android:name="com.example.gestionfraimobileandroid.ui.RefusedRequest.RefusedRequestFragment"
+        android:label="fragment_refused_request"
+        tools:layout="@layout/fragment_refused_request" />
+    <fragment
+        android:id="@+id/nav_waitedRequestFragment"
+        android:name="com.example.gestionfraimobileandroid.ui.WaitedRequest.WaitedRequestFragment"
+        android:label="WaitedRequestFragment" />
+    <fragment
+        android:id="@+id/nav_creationDemandeFragment"
+        android:name="com.example.gestionfraimobileandroid.ui.creationdemande.CreationDemandeFragment"
+        android:label="fragment_creation_demande"
+        tools:layout="@layout/fragment_creation_demande" />
+    <fragment
+        android:id="@+id/nav_allUsersFragment"
+        android:name="com.example.gestionfraimobileandroid.ui.getUsers.AllUsersFragment"
+        android:label="fragment_all_users"
+        tools:layout="@layout/fragment_all_users" />
+
+
+</navigation>
